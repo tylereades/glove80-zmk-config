@@ -28,6 +28,19 @@ file, not a fresh build of this repo.
 swap. If this repo's keymap ever becomes the daily driver, that swap needs to
 be ported into it first, or it will silently regress.)
 
+## `default-plus-hyper.uf2`
+
+The stock MoErgo layout with one change: position 68 (`&kp RIGHT`) rebound to
+`&kp HYPER`, giving a Cmd+Alt+Ctrl+Shift prefix for Raycast hotkeys. Built
+from `main`.
+
+**This is not a drop-in replacement for the baseline above** — it builds the
+*vanilla* default keymap, so it is missing the command swap that the baseline
+firmware has. Flashing this changes two things, not one.
+
+- Build: GitHub Actions run 32854997354.
+- Size: 819200 bytes
+
 ## `sunaku-glorious-engrammer-qwerty-macos-diff1.uf2`
 
 **The trial keymap** — sunaku's Glorious Engrammer, for A/B testing against

@@ -69,7 +69,7 @@ layers:
   - HOME
   - END
   - LEFT
-  - RIGHT
+  - Ctl+Sft+Gui+LALT
   - BSPC
   - DEL
   - LALT

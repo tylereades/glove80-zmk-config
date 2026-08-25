@@ -55,8 +55,17 @@ To rebuild after changing settings: edit `config/glove80.keymap` on the
 
 ## Flashing
 
-Each half is flashed separately by copying the `.uf2` onto the mass-storage
-volume that appears when that half is put into bootloader mode. Verify the
-current bootloader key combo against MoErgo's docs (docs.moergo.com Glove80
-user guide, "Putting into bootloader for firmware loading") rather than
-relying on memory.
+Run `./flash.sh` from the repo root and pick a firmware. Each half is flashed
+separately by copying the `.uf2` onto the mass-storage volume that appears
+when that half is put into bootloader mode:
+
+| Half | Combo | Volume |
+|---|---|---|
+| Left | `Magic + Esc` | `GLV80LHBOOT` |
+| Right | `Magic + '` | `GLV80RHBOOT` |
+
+Both keymaps bind `&bootloader` to the same physical positions (34 and 45),
+so these work whichever firmware is currently on the keyboard.
+
+**If firmware won't boot:** hold `Magic + E` while flipping the left half's
+power switch — a hardware-level entry that needs no working ZMK install.

@@ -63,14 +63,25 @@ ever wants to use it instead — just don't mix the two without syncing
 
 ## Flashing
 
-Split keyboard — each half is flashed separately by copying the same
-`glove80.uf2` onto a USB mass-storage device that appears when that half is
-put into bootloader mode. **Verify the exact bootloader key combo against
-MoErgo's current docs each time** (docs.moergo.com Glove80 user guide,
-"Putting into bootloader for firmware loading") rather than trusting a
-possibly-stale/garbled memory of it — the combo involves the `Magic` key
-plus a per-half key and has been mis-transcribed from indirect sources
-before.
+Use `./flash.sh` — it lists what's in `firmware-archive/`, waits for each
+half's bootloader volume to mount, and copies the firmware over. It cannot
+put the keyboard *into* bootloader mode; that's a physical combo:
+
+| Half | Combo | Volume |
+|---|---|---|
+| Left | `Magic + Esc` | `GLV80LHBOOT` |
+| Right | `Magic + '` | `GLV80RHBOOT` |
+
+Verified against MoErgo's docs. (An earlier note here recorded the right-half
+key as "Ä" — that was a mis-transcription from an indirect source. It is the
+apostrophe.)
+
+Both the stock and sunaku keymaps bind `&bootloader` to the same physical key
+positions (34 and 45, the outermost home-row keys), so these combos work
+regardless of which firmware is currently flashed.
+
+**Hardware fallback if firmware won't boot:** hold `Magic + E` while flipping
+the left half's power switch. Needs no working ZMK installation.
 
 ## Open items / not yet done
 

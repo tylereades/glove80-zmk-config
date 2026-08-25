@@ -9,6 +9,16 @@
 # Each half must be put into bootloader mode separately; when it is, macOS
 # mounts it as /Volumes/GLV80LHBOOT (left) or /Volumes/GLV80RHBOOT (right).
 # Copying a .uf2 there flashes it and the volume disappears on its own.
+#
+# Bootloader combos (verified against MoErgo's docs):
+#   LEFT   Magic + Esc
+#   RIGHT  Magic + '
+# Both the stock and sunaku keymaps bind &bootloader to the same physical key
+# positions (34 and 45, the outermost home-row keys), so these work either way.
+#
+# If a flash ever goes wrong and the firmware won't boot, there is a hardware
+# fallback that needs no working firmware: hold Magic + E while flipping the
+# left half's power switch.
 
 set -eu
 
@@ -46,9 +56,12 @@ flash_half() {
     if [ -d "$vol" ]; then
         echo "==> $label already in bootloader mode."
     else
-        echo "==> Put the $label half into bootloader mode now."
-        echo "    (Magic + a per-half key — check MoErgo's docs if unsure:"
-        echo "     docs.moergo.com, 'Putting into bootloader for firmware loading')"
+        echo "==> Put the $label half into bootloader mode now:"
+        echo
+        echo "        press  $3"
+        echo
+        echo "    (Both keymaps bind &bootloader to the same physical keys,"
+        echo "     so this combo works whichever firmware is currently on.)"
         printf "    Waiting for %s ..." "$1"
         while [ ! -d "$vol" ]; do
             sleep 1
@@ -65,8 +78,8 @@ flash_half() {
     echo
 }
 
-flash_half GLV80LHBOOT "LEFT"
-flash_half GLV80RHBOOT "RIGHT"
+flash_half GLV80LHBOOT "LEFT"  "Magic + Esc   (Esc = outermost key, left home row)"
+flash_half GLV80RHBOOT "RIGHT" "Magic + '     (' = outermost key, right home row)"
 
 echo "Done. Both halves flashed with:"
 echo "  $fw"

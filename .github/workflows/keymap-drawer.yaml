@@ -1,0 +1,17 @@
+name: Draw keymap
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  draw:
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    with:
+      keymap_patterns: 'config/*.keymap'
+      # this repo builds firmware via Nix (see config/default.nix), not west,
+      # so there is no config/west.yml for the reusable workflow to fetch
+      west_config_path: ''
+      output_folder: 'keymap-drawer'
+      draw_args: "glove80:'-j config/info.json'"

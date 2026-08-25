@@ -28,18 +28,28 @@ file, not a fresh build of this repo.
 swap. If this repo's keymap ever becomes the daily driver, that swap needs to
 be ported into it first, or it will silently regress.)
 
-## `default-plus-hyper.uf2`
+## `baseline-plus-swap-plus-hyper.uf2`
 
-The stock MoErgo layout with one change: position 68 (`&kp RIGHT`) rebound to
-`&kp HYPER`, giving a Cmd+Alt+Ctrl+Shift prefix for Raycast hotkeys. Built
-from `main`.
+**A genuine upgrade to the baseline** — same layout, plus a Hyper key. This
+is the one to flash to keep the familiar layout while gaining Raycast
+hotkeys.
 
-**This is not a drop-in replacement for the baseline above** — it builds the
-*vanilla* default keymap, so it is missing the command swap that the baseline
-firmware has. Flashing this changes two things, not one.
-
-- Build: GitHub Actions run 32854997354.
+- Built from `main`, GitHub Actions run 32856048292.
 - Size: 819200 bytes
+
+Contains both:
+
+1. The swapped-command thumb arrangement (positions 53/55/56/70), ported
+   from MoErgo layout 6394d58f, so it matches the baseline above.
+2. `&kp HYPER` at position 68 (was `&kp RIGHT`) — a Cmd+Alt+Ctrl+Shift
+   prefix for Raycast per-app hotkeys. Arrows remain on the lower layer.
+
+Verified by comparing all 80 base-layer positions against the layout
+exported from MoErgo. The only intentional difference is position 68.
+
+(An earlier `default-plus-hyper.uf2` was removed — it had Hyper but was
+built before the swap was ported, so it silently regressed the thumb
+layout.)
 
 ## `sunaku-glorious-engrammer-qwerty-macos-diff1.uf2`
 

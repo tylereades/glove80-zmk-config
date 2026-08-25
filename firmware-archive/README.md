@@ -28,10 +28,44 @@ file, not a fresh build of this repo.
 swap. If this repo's keymap ever becomes the daily driver, that swap needs to
 be ported into it first, or it will silently regress.)
 
+## `sunaku-glorious-engrammer-qwerty-macos-diff1.uf2`
+
+**The trial keymap** — sunaku's Glorious Engrammer, for A/B testing against
+the baseline. Flashing this is reversible; flash the baseline to go back.
+
+- Built from the `sunaku` branch of this repo (`config/glove80.keymap` there
+  is a vendored copy of `keymap.zmk` from `sunaku/glove80-keymaps`).
+- Build: GitHub Actions run 32804897394, commit `fd2ce74`.
+- SHA-256: `703a475f429210851769f41b9f26cebaf783f1a7ec63e2b88d3d9d1a1313aed6`
+- Size: 1077248 bytes
+
+Two settings changed from sunaku's defaults:
+
+| Setting | His default | Ours | Why |
+|---|---|---|---|
+| `OPERATING_SYSTEM` | `'L'` (Linux) | `'M'` (macOS) | he targets Linux; this matters a lot |
+| `DIFFICULTY_LEVEL` | `0` (his custom 150ms) | `1` (500ms) | most forgiving, for learning |
+
+Base alpha layer is QWERTY. Other layouts (Enthium, Dvorak, Colemak) are
+reachable at runtime via the Magic layer, so switching does not require a
+reflash.
+
+To rebuild after changing settings: edit `config/glove80.keymap` on the
+`sunaku` branch, push, and grab the artifact from the Build workflow.
+
 ## Flashing
 
-Each half is flashed separately by copying the `.uf2` onto the mass-storage
-volume that appears when that half is put into bootloader mode. Verify the
-current bootloader key combo against MoErgo's docs (docs.moergo.com Glove80
-user guide, "Putting into bootloader for firmware loading") rather than
-relying on memory.
+Run `./flash.sh` from the repo root and pick a firmware. Each half is flashed
+separately by copying the `.uf2` onto the mass-storage volume that appears
+when that half is put into bootloader mode:
+
+| Half | Combo | Volume |
+|---|---|---|
+| Left | `Magic + Esc` | `GLV80LHBOOT` |
+| Right | `Magic + '` | `GLV80RHBOOT` |
+
+Both keymaps bind `&bootloader` to the same physical positions (34 and 45),
+so these work whichever firmware is currently on the keyboard.
+
+**If firmware won't boot:** hold `Magic + E` while flipping the left half's
+power switch — a hardware-level entry that needs no working ZMK install.

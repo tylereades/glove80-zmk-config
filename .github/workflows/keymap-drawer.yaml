@@ -2,7 +2,9 @@ name: Draw keymap
 
 on:
   push:
-    branches: [main]
+    # every branch, so keymap variants on their own branches (e.g. `sunaku`)
+    # each get an accurate rendered diagram of what they actually build
+    branches: ['**']
   workflow_dispatch:
 
 jobs:

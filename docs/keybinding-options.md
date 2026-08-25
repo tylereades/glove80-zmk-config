@@ -12,8 +12,18 @@ Tap the *same key* again → another Tab, Cmd still held → one more app back.
 Press any other key → Cmd releases, confirming the selection. No holding
 two keys at once.
 
-**Status:** on hold. Blocked on a build-system gotcha (see below), not on
-feasibility — the behavior itself is well-established in the ZMK community.
+**Status: probably SOLVED, without any of the below.** sunaku's keymap (see
+[sunaku-keymap-reference.md](sunaku-keymap-reference.md)) already ships this
+as a thumb combo: **T1+T4** activates a Cmd+Tab switcher, then tapping cycles
+through apps. Verified in the rendered keymap as
+`p: [52, 69] → &mod_tab_chord LGUI`. No custom module, no Nix workaround.
+
+Everything below is retained only in case the trial keymap is abandoned and
+this has to be built from scratch on the stock layout instead.
+
+**Original status:** on hold. Blocked on a build-system gotcha (see below),
+not on feasibility — the behavior itself is well-established in the ZMK
+community.
 
 **What it needs:** the [`zmk-smart-toggle`](https://github.com/caksoylar/zmk-smart-toggle)
 module (or the older, similar `tri-state`/"swapper" pattern). Example:

@@ -1,6 +1,1953 @@
 layout: {zmk_keyboard: glove80}
 layers:
-  default:
+  Enthium:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
+  - Q
+  - Y
+  - O
+  - U
+  - '='
+  - X
+  - L
+  - D
+  - P
+  - Z
+  - ''
+  - B
+  - {t: C, h: '&left_pinky_hold LCTL'}
+  - {t: I, h: '&left_ringy_hold LALT'}
+  - {t: A, h: '&left_middy_hold LGUI'}
+  - {t: E, h: '&left_index_hold LSFT'}
+  - '-'
+  - K
+  - {t: H, h: '&right_index_hold LSFT'}
+  - {t: T, h: '&right_middy_hold LGUI'}
+  - {t: N, h: '&right_ringy_hold LALT'}
+  - {t: S, h: '&right_pinky_hold LCTL'}
+  - W
+  - {t: '&sticky_key_oneshot LSFT', h: LSFT}
+  - ''''
+  - ','
+  - .
+  - ;
+  - /
+  - {t: ESC, h: Function}
+  - {t: INSERT, h: Lower}
+  - PG UP
+  - '&msc MOVE_Y(33 * 1)'
+  - {t: DELETE, h: Lower}
+  - {t: ENTER, h: System}
+  - J
+  - M
+  - G
+  - F
+  - V
+  - {t: '&sticky_key_oneshot RSFT', h: RSFT}
+  - {t: '&rgb_ug_status_macro', h: Magic}
+  - \
+  - {t: (, s: <}
+  - {t: ), s: '>'}
+  - {t: '&sticky_key_oneshot LSFT', h: Emoji}
+  - {t: SPACE, h: Cursor}
+  - {t: TAB, h: Number}
+  - PG DN
+  - '&msc MOVE_Y(33 * 1 * -1)'
+  - {t: BACKSPACE, h: Mouse}
+  - {t: R, h: Symbol}
+  - {t: '&sticky_key_oneshot RSFT', h: World}
+  - '['
+  - ']'
+  - '`'
+  - {t: '&rgb_ug_status_macro', h: Magic}
+  Dvorak:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
+  - ''''
+  - ','
+  - .
+  - P
+  - Y
+  - F
+  - G
+  - C
+  - R
+  - L
+  - /
+  - '='
+  - {t: A, h: LCTL}
+  - {t: O, h: LALT}
+  - {t: E, h: LGUI}
+  - {t: U, h: LSFT}
+  - I
+  - D
+  - {t: H, h: LSFT}
+  - {t: T, h: LGUI}
+  - {t: N, h: LALT}
+  - {t: S, h: LCTL}
+  - '-'
+  - {t: '&sticky_key_oneshot LSFT', h: LSFT}
+  - ;
+  - Q
+  - J
+  - K
+  - X
+  - {t: ESC, h: Function}
+  - Lower
+  - PG UP
+  - '&msc MOVE_Y(33 * 1)'
+  - {t: INSERT, h: Lower}
+  - {t: ENTER, h: System}
+  - B
+  - M
+  - W
+  - V
+  - Z
+  - {t: '&sticky_key_oneshot RSFT', h: RSFT}
+  - {t: '&rgb_ug_status_macro', h: Magic}
+  - \
+  - {t: (, s: <}
+  - {t: ), s: '>'}
+  - {t: '&sticky_key_oneshot LSFT', h: Emoji}
+  - {t: BACKSPACE, h: Cursor}
+  - {t: DELETE, h: Number}
+  - PG DN
+  - '&msc MOVE_Y(33 * 1 * -1)'
+  - {t: TAB, h: Mouse}
+  - {t: SPACE, h: Symbol}
+  - {t: '&sticky_key_oneshot RSFT', h: World}
+  - '['
+  - ']'
+  - '`'
+  - {t: '&rgb_ug_status_macro', h: Magic}
+  Colemak:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
+  - Q
+  - W
+  - F
+  - P
+  - G
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - '-'
+  - '='
+  - {t: A, h: LCTL}
+  - {t: R, h: LALT}
+  - {t: S, h: LGUI}
+  - {t: T, h: LSFT}
+  - D
+  - H
+  - {t: N, h: LSFT}
+  - {t: E, h: LGUI}
+  - {t: I, h: LALT}
+  - {t: O, h: LCTL}
+  - ''''
+  - {t: '&sticky_key_oneshot LSFT', h: LSFT}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: ESC, h: Function}
+  - Lower
+  - PG UP
+  - '&msc MOVE_Y(33 * 1)'
+  - {t: INSERT, h: Lower}
+  - {t: ENTER, h: System}
+  - K
+  - M
+  - ','
+  - .
+  - /
+  - {t: '&sticky_key_oneshot RSFT', h: RSFT}
+  - {t: '&rgb_ug_status_macro', h: Magic}
+  - \
+  - {t: (, s: <}
+  - {t: ), s: '>'}
+  - {t: '&sticky_key_oneshot LSFT', h: Emoji}
+  - {t: BACKSPACE, h: Cursor}
+  - {t: DELETE, h: Number}
+  - PG DN
+  - '&msc MOVE_Y(33 * 1 * -1)'
+  - {t: TAB, h: Mouse}
+  - {t: SPACE, h: Symbol}
+  - {t: '&sticky_key_oneshot RSFT', h: World}
+  - '['
+  - ']'
+  - '`'
+  - {t: '&rgb_ug_status_macro', h: Magic}
+  QWERTY:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '-'
+  - '='
+  - {t: A, h: LCTL}
+  - {t: S, h: LALT}
+  - {t: D, h: LGUI}
+  - {t: F, h: LSFT}
+  - G
+  - H
+  - {t: J, h: LSFT}
+  - {t: K, h: LGUI}
+  - {t: L, h: LALT}
+  - {t: ;, h: LCTL}
+  - ''''
+  - {t: '&sticky_key_oneshot LSFT', h: LSFT}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: ESC, h: Function}
+  - Lower
+  - PG UP
+  - '&msc MOVE_Y(33 * 1)'
+  - {t: INSERT, h: Lower}
+  - {t: ENTER, h: System}
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: '&sticky_key_oneshot RSFT', h: RSFT}
+  - {t: '&rgb_ug_status_macro', h: Magic}
+  - \
+  - {t: (, s: <}
+  - {t: ), s: '>'}
+  - {t: '&sticky_key_oneshot LSFT', h: Emoji}
+  - {t: BACKSPACE, h: Cursor}
+  - {t: DELETE, h: Number}
+  - PG DN
+  - '&msc MOVE_Y(33 * 1 * -1)'
+  - {t: TAB, h: Mouse}
+  - {t: SPACE, h: Symbol}
+  - {t: '&sticky_key_oneshot RSFT', h: World}
+  - '['
+  - ']'
+  - '`'
+  - {t: '&rgb_ug_status_macro', h: Magic}
+  macOS:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: C, h: '&left_middy_hold LGUI'}
+  - {t: I, h: '&left_ringy_hold LALT'}
+  - {t: A, h: '&left_pinky_hold LCTL'}
+  - {t: E, h: '&left_index_hold LSFT'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: H, h: '&right_index_hold LSFT'}
+  - {t: T, h: '&right_pinky_hold LCTL'}
+  - {t: N, h: '&right_ringy_hold LALT'}
+  - {t: S, h: '&right_middy_hold LGUI'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Typing:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - C
+  - I
+  - A
+  - E
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - H
+  - T
+  - N
+  - S
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ESC
+  - INSERT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - DELETE
+  - ENTER
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LSFT
+  - SPACE
+  - {t: TAB, type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - BACKSPACE
+  - R
+  - RSFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  LeftPinky:
+  - '&left_pinky_tap'
+  - '&left_pinky_tap'
+  - '&left_pinky_tap'
+  - '&left_pinky_tap'
+  - '&left_pinky_tap'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&left_pinky_tap'
+  - '&left_pinky_tap N1'
+  - '&left_pinky_tap N2'
+  - '&left_pinky_tap N3'
+  - '&left_pinky_tap N4'
+  - '&left_pinky_tap N5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&left_pinky_tap'
+  - '&left_pinky_tap Q'
+  - '&left_pinky_tap Y'
+  - '&left_pinky_tap O'
+  - '&left_pinky_tap U'
+  - '&left_pinky_tap EQUAL'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&left_pinky_tap B'
+  - ''
+  - {t: '&left_pinky_tap I', h: LALT}
+  - {t: '&left_pinky_tap A', h: LGUI}
+  - {t: '&left_pinky_tap E', h: LSFT}
+  - '&left_pinky_tap MINUS'
+  - {t: ▽, type: trans}
+  - H
+  - T
+  - N
+  - S
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&left_pinky_tap SQT'
+  - '&left_pinky_tap COMMA'
+  - '&left_pinky_tap DOT'
+  - '&left_pinky_tap SEMI'
+  - '&left_pinky_tap FSLH'
+  - Function
+  - Lower
+  - '&left_pinky_tap PG_UP'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&left_pinky_tap BSLH'
+  - '&left_pinky_tap LPAR'
+  - '&left_pinky_tap RPAR'
+  - Emoji
+  - Cursor
+  - Number
+  - '&left_pinky_tap PG_DN'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  LeftRingy:
+  - '&left_ringy_tap'
+  - '&left_ringy_tap'
+  - '&left_ringy_tap'
+  - '&left_ringy_tap'
+  - '&left_ringy_tap'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&left_ringy_tap'
+  - '&left_ringy_tap N1'
+  - '&left_ringy_tap N2'
+  - '&left_ringy_tap N3'
+  - '&left_ringy_tap N4'
+  - '&left_ringy_tap N5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&left_ringy_tap'
+  - '&left_ringy_tap Q'
+  - '&left_ringy_tap Y'
+  - '&left_ringy_tap O'
+  - '&left_ringy_tap U'
+  - '&left_ringy_tap EQUAL'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&left_ringy_tap B'
+  - {t: '&left_ringy_tap C', h: LCTL}
+  - ''
+  - {t: '&left_ringy_tap A', h: LGUI}
+  - {t: '&left_ringy_tap E', h: LSFT}
+  - '&left_ringy_tap MINUS'
+  - {t: ▽, type: trans}
+  - H
+  - T
+  - N
+  - S
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&left_ringy_tap SQT'
+  - '&left_ringy_tap COMMA'
+  - '&left_ringy_tap DOT'
+  - '&left_ringy_tap SEMI'
+  - '&left_ringy_tap FSLH'
+  - Function
+  - Lower
+  - '&left_ringy_tap PG_UP'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&left_ringy_tap BSLH'
+  - '&left_ringy_tap LPAR'
+  - '&left_ringy_tap RPAR'
+  - Emoji
+  - Cursor
+  - Number
+  - '&left_ringy_tap PG_DN'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  LeftMiddy:
+  - '&left_middy_tap'
+  - '&left_middy_tap'
+  - '&left_middy_tap'
+  - '&left_middy_tap'
+  - '&left_middy_tap'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&left_middy_tap'
+  - '&left_middy_tap N1'
+  - '&left_middy_tap N2'
+  - '&left_middy_tap N3'
+  - '&left_middy_tap N4'
+  - '&left_middy_tap N5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&left_middy_tap'
+  - '&left_middy_tap Q'
+  - '&left_middy_tap Y'
+  - '&left_middy_tap O'
+  - '&left_middy_tap U'
+  - '&left_middy_tap EQUAL'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&left_middy_tap B'
+  - {t: '&left_middy_tap C', h: LCTL}
+  - {t: '&left_middy_tap I', h: LALT}
+  - ''
+  - {t: '&left_middy_tap E', h: LSFT}
+  - '&left_middy_tap MINUS'
+  - {t: ▽, type: trans}
+  - H
+  - T
+  - N
+  - S
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&left_middy_tap SQT'
+  - '&left_middy_tap COMMA'
+  - '&left_middy_tap DOT'
+  - '&left_middy_tap SEMI'
+  - '&left_middy_tap FSLH'
+  - Function
+  - Lower
+  - '&left_middy_tap PG_UP'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&left_middy_tap BSLH'
+  - '&left_middy_tap LPAR'
+  - '&left_middy_tap RPAR'
+  - Emoji
+  - Cursor
+  - Number
+  - '&left_middy_tap PG_DN'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  LeftIndex:
+  - '&left_index_tap'
+  - '&left_index_tap'
+  - '&left_index_tap'
+  - '&left_index_tap'
+  - '&left_index_tap'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&left_index_tap'
+  - '&left_index_tap N1'
+  - '&left_index_tap N2'
+  - '&left_index_tap N3'
+  - '&left_index_tap N4'
+  - '&left_index_tap N5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&left_index_tap'
+  - '&left_index_tap Q'
+  - '&left_index_tap Y'
+  - '&left_index_tap O'
+  - '&left_index_tap U'
+  - '&left_index_tap EQUAL'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&left_index_tap B'
+  - {t: '&left_index_tap C', h: LCTL}
+  - {t: '&left_index_tap I', h: LALT}
+  - {t: '&left_index_tap A', h: LGUI}
+  - ''
+  - '&left_index_tap MINUS'
+  - {t: ▽, type: trans}
+  - H
+  - T
+  - N
+  - S
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&left_index_tap SQT'
+  - '&left_index_tap COMMA'
+  - '&left_index_tap DOT'
+  - '&left_index_tap SEMI'
+  - '&left_index_tap FSLH'
+  - Function
+  - Lower
+  - '&left_index_tap PG_UP'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&left_index_tap BSLH'
+  - '&left_index_tap LPAR'
+  - '&left_index_tap RPAR'
+  - Emoji
+  - Cursor
+  - Number
+  - '&left_index_tap PG_DN'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  RightIndex:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&right_index_tap'
+  - '&right_index_tap'
+  - '&right_index_tap'
+  - '&right_index_tap'
+  - '&right_index_tap'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&right_index_tap N6'
+  - '&right_index_tap N7'
+  - '&right_index_tap N8'
+  - '&right_index_tap N9'
+  - '&right_index_tap N0'
+  - '&right_index_tap'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&right_index_tap X'
+  - '&right_index_tap L'
+  - '&right_index_tap D'
+  - '&right_index_tap P'
+  - '&right_index_tap Z'
+  - '&right_index_tap'
+  - {t: ▽, type: trans}
+  - C
+  - I
+  - A
+  - E
+  - {t: ▽, type: trans}
+  - '&right_index_tap K'
+  - ''
+  - {t: '&right_index_tap T', h: LGUI}
+  - {t: '&right_index_tap N', h: LALT}
+  - {t: '&right_index_tap S', h: LCTL}
+  - '&right_index_tap W'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&right_index_tap'
+  - Lower
+  - System
+  - '&right_index_tap J'
+  - '&right_index_tap M'
+  - '&right_index_tap G'
+  - '&right_index_tap F'
+  - '&right_index_tap V'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&right_index_tap'
+  - Mouse
+  - Symbol
+  - World
+  - '&right_index_tap LBKT'
+  - '&right_index_tap RBKT'
+  - '&right_index_tap GRAVE'
+  - {t: ▽, type: trans}
+  RightMiddy:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&right_middy_tap'
+  - '&right_middy_tap'
+  - '&right_middy_tap'
+  - '&right_middy_tap'
+  - '&right_middy_tap'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&right_middy_tap N6'
+  - '&right_middy_tap N7'
+  - '&right_middy_tap N8'
+  - '&right_middy_tap N9'
+  - '&right_middy_tap N0'
+  - '&right_middy_tap'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&right_middy_tap X'
+  - '&right_middy_tap L'
+  - '&right_middy_tap D'
+  - '&right_middy_tap P'
+  - '&right_middy_tap Z'
+  - '&right_middy_tap'
+  - {t: ▽, type: trans}
+  - C
+  - I
+  - A
+  - E
+  - {t: ▽, type: trans}
+  - '&right_middy_tap K'
+  - {t: '&right_middy_tap H', h: LSFT}
+  - ''
+  - {t: '&right_middy_tap N', h: LALT}
+  - {t: '&right_middy_tap S', h: LCTL}
+  - '&right_middy_tap W'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&right_middy_tap'
+  - Lower
+  - System
+  - '&right_middy_tap J'
+  - '&right_middy_tap M'
+  - '&right_middy_tap G'
+  - '&right_middy_tap F'
+  - '&right_middy_tap V'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&right_middy_tap'
+  - Mouse
+  - Symbol
+  - World
+  - '&right_middy_tap LBKT'
+  - '&right_middy_tap RBKT'
+  - '&right_middy_tap GRAVE'
+  - {t: ▽, type: trans}
+  RightRingy:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&right_ringy_tap'
+  - '&right_ringy_tap'
+  - '&right_ringy_tap'
+  - '&right_ringy_tap'
+  - '&right_ringy_tap'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&right_ringy_tap N6'
+  - '&right_ringy_tap N7'
+  - '&right_ringy_tap N8'
+  - '&right_ringy_tap N9'
+  - '&right_ringy_tap N0'
+  - '&right_ringy_tap'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&right_ringy_tap X'
+  - '&right_ringy_tap L'
+  - '&right_ringy_tap D'
+  - '&right_ringy_tap P'
+  - '&right_ringy_tap Z'
+  - '&right_ringy_tap'
+  - {t: ▽, type: trans}
+  - C
+  - I
+  - A
+  - E
+  - {t: ▽, type: trans}
+  - '&right_ringy_tap K'
+  - {t: '&right_ringy_tap H', h: LSFT}
+  - {t: '&right_ringy_tap T', h: LGUI}
+  - ''
+  - {t: '&right_ringy_tap S', h: LCTL}
+  - '&right_ringy_tap W'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&right_ringy_tap'
+  - Lower
+  - System
+  - '&right_ringy_tap J'
+  - '&right_ringy_tap M'
+  - '&right_ringy_tap G'
+  - '&right_ringy_tap F'
+  - '&right_ringy_tap V'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&right_ringy_tap'
+  - Mouse
+  - Symbol
+  - World
+  - '&right_ringy_tap LBKT'
+  - '&right_ringy_tap RBKT'
+  - '&right_ringy_tap GRAVE'
+  - {t: ▽, type: trans}
+  RightPinky:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&right_pinky_tap'
+  - '&right_pinky_tap'
+  - '&right_pinky_tap'
+  - '&right_pinky_tap'
+  - '&right_pinky_tap'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&right_pinky_tap N6'
+  - '&right_pinky_tap N7'
+  - '&right_pinky_tap N8'
+  - '&right_pinky_tap N9'
+  - '&right_pinky_tap N0'
+  - '&right_pinky_tap'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&right_pinky_tap X'
+  - '&right_pinky_tap L'
+  - '&right_pinky_tap D'
+  - '&right_pinky_tap P'
+  - '&right_pinky_tap Z'
+  - '&right_pinky_tap'
+  - {t: ▽, type: trans}
+  - C
+  - I
+  - A
+  - E
+  - {t: ▽, type: trans}
+  - '&right_pinky_tap K'
+  - {t: '&right_pinky_tap H', h: LSFT}
+  - {t: '&right_pinky_tap T', h: LGUI}
+  - {t: '&right_pinky_tap N', h: LALT}
+  - ''
+  - '&right_pinky_tap W'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&right_pinky_tap'
+  - Lower
+  - System
+  - '&right_pinky_tap J'
+  - '&right_pinky_tap M'
+  - '&right_pinky_tap G'
+  - '&right_pinky_tap F'
+  - '&right_pinky_tap V'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&right_pinky_tap'
+  - Mouse
+  - Symbol
+  - World
+  - '&right_pinky_tap LBKT'
+  - '&right_pinky_tap RBKT'
+  - '&right_pinky_tap GRAVE'
+  - {t: ▽, type: trans}
+  Gaming: [ESC, P, O, N, BSPC, F1, F2, F3, F4, F5, M, '6', '7', '8', '9', '0', F6, F7, F8, F9, F10, F11, I, '1', '2', '3', '4', '5', Y, U, I, O, P, F12, T, TAB, Q,
+    W, E, R, H, J, K, L, ;, '''', G, LSHFT, A, S, D, F, LSHFT, LALT, V, ESC, UP, RET, N, M, ',', ., /, \, B, LCTRL, Z, X, C, SPACE, LCTRL, RET, LEFT, DOWN, RIGHT,
+    '-', '[', ']', '=', '`']
+  Cursor:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ESC
+  - INS
+  - Sft+TAB
+  - DEL
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - RET
+  - SPACE
+  - TAB
+  - BSPC
+  - Gui+X
+  - Gui+X
+  - Sft+TAB
+  - Gui+Z
+  - Gui+Sft+Z
+  - TAB
+  - ''
+  - {t: LSHFT, h: sticky}
+  - LCTL
+  - LALT
+  - LGUI
+  - LSFT
+  - Gui+C
+  - Gui+C
+  - LEFT
+  - UP
+  - DOWN
+  - RIGHT
+  - {t: LSHFT, h: sticky}
+  - Gui+L
+  - Gui+A
+  - {t: '&select_line_right', s: '&select_line_left'}
+  - {t: '&select_word_right', s: '&select_word_left'}
+  - Gui+F
+  - Gui+V
+  - ''
+  - ''
+  - ''
+  - '&select_none'
+  - {t: '&extend_line_right', s: '&extend_line_left'}
+  - {t: '&extend_word_right', s: '&extend_word_left'}
+  - Gui+V
+  - Gui+LEFT
+  - PG UP
+  - PG DN
+  - Gui+RIGHT
+  - Gui+L
+  - Gui+K
+  - Gui+Z
+  - Gui+Sft+Z
+  - Gui+Sft+G
+  - Gui+G
+  - {t: Cursor, h: toggle, type: held}
+  - ''
+  - ''
+  - Gui+A
+  - {t: '&select_line_right', s: '&select_line_left'}
+  - {t: '&select_word_right', s: '&select_word_left'}
+  - Gui+F
+  - Gui+Sft+G
+  - Gui+G
+  - Gui+H
+  - Gui+K
+  Number:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - A
+  - B
+  - C
+  - D
+  - E
+  - ''
+  - ESC
+  - INS
+  - Sft+TAB
+  - DEL
+  - ''
+  - Sft+\
+  - Sft+3
+  - Sft+4
+  - Sft+6
+  - Sft+`
+  - Sft+1
+  - ''
+  - RET
+  - SPACE
+  - TAB
+  - BSPC
+  - '0'
+  - Sft+G
+  - '7'
+  - '8'
+  - '9'
+  - Sft+;
+  - Sft+5
+  - {t: LSHFT, h: sticky}
+  - LCTL
+  - LALT
+  - LGUI
+  - LSFT
+  - X
+  - K
+  - '4'
+  - '5'
+  - '6'
+  - '-'
+  - Sft+=
+  - E
+  - Gui+A
+  - {t: '&select_line_right', s: '&select_line_left'}
+  - {t: '&select_word_right', s: '&select_word_left'}
+  - Gui+F
+  - F
+  - ''
+  - ''
+  - ''
+  - Sft+,
+  - '='
+  - ','
+  - J
+  - '1'
+  - '2'
+  - '3'
+  - /
+  - Sft+8
+  - Sft+-
+  - Gui+Z
+  - Gui+Sft+Z
+  - Gui+Sft+G
+  - Gui+G
+  - ''
+  - {t: Number, h: toggle, type: held}
+  - ''
+  - Sft+.
+  - .
+  - '0'
+  - Sft+9
+  - '['
+  - ']'
+  - Sft+0
+  - Sft+2
+  Function:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ESC
+  - INS
+  - Sft+TAB
+  - DEL
+  - ''
+  - MEDIA HOME
+  - PLAY
+  - PREV
+  - NEXT
+  - STOP
+  - EJECT
+  - ''
+  - RET
+  - SPACE
+  - TAB
+  - BSPC
+  - CALC
+  - CALC
+  - F7
+  - F8
+  - F9
+  - F10
+  - F13
+  - {t: LSHFT, h: sticky}
+  - LCTL
+  - LALT
+  - LGUI
+  - LSFT
+  - WWW
+  - WWW
+  - F4
+  - F5
+  - F6
+  - F11
+  - F14
+  - ''
+  - Gui+A
+  - {t: '&select_line_right', s: '&select_line_left'}
+  - {t: '&select_word_right', s: '&select_word_left'}
+  - Gui+F
+  - Sft+Alt+M
+  - {t: Function, h: toggle, type: held}
+  - ''
+  - ''
+  - PREV
+  - PP
+  - MUTE
+  - Sft+Alt+M
+  - F1
+  - F2
+  - F3
+  - F12
+  - F15
+  - ''
+  - Gui+Z
+  - Gui+Sft+Z
+  - Gui+Sft+G
+  - Gui+G
+  - ''
+  - ''
+  - ''
+  - NEXT
+  - VOL DN
+  - VOL UP
+  - BRI MAX
+  - BRI UP
+  - BRI DN
+  - BRI MIN
+  - BRI AUTO
+  macOS_left:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LGUI
+  - LALT
+  - LCTL
+  - LSFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Symbol:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '`'
+  - Sft+9
+  - Sft+0
+  - ;
+  - ','
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Sft+1
+  - '['
+  - Sft+[
+  - Sft+]
+  - ']'
+  - Sft+/
+  - .
+  - DEL
+  - Sft+TAB
+  - INS
+  - ESC
+  - ''
+  - Sft+3
+  - Sft+6
+  - '='
+  - Sft+-
+  - Sft+4
+  - Sft+8
+  - ','
+  - BSPC
+  - TAB
+  - SPACE
+  - RET
+  - '&triple_backtick'
+  - Sft+`
+  - Sft+,
+  - Sft+\
+  - '-'
+  - Sft+.
+  - /
+  - \
+  - .
+  - Sft+8
+  - ''
+  - ''
+  - ''
+  - ;
+  - Sft+'
+  - ''''
+  - '`'
+  - \
+  - {t: ▽, type: trans}
+  - '&dot_dot'
+  - Sft+7
+  - ''''
+  - Sft+'
+  - Sft+=
+  - Sft+5
+  - Sft+;
+  - Sft+2
+  - ''
+  - ''
+  - {t: Symbol, h: toggle, type: held}
+  - LSFT
+  - LGUI
+  - LALT
+  - LCTL
+  - ''
+  Mouse:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&msc SCRL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_RIGHT'
+  - ''
+  - '&msc SCRL_LEFT'
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - '&msc SCRL_RIGHT'
+  - ''
+  - ''
+  - '&msc SCRL_UP'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_UP'
+  - Mouse_fast
+  - Mouse_warp
+  - Mouse_slow
+  - APP
+  - '&mkp MB4'
+  - ''
+  - '&msc SCRL_DOWN'
+  - Mouse_slow
+  - Mouse_warp
+  - Mouse_fast
+  - '&msc SCRL_DOWN'
+  - '&mkp MCLK'
+  - APP
+  - '&mkp MB5'
+  - Gui+X
+  - Gui+C
+  - Gui+V
+  - '&msc SCRL_DOWN'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '&mkp MB5'
+  - ''
+  - ''
+  - Gui+X
+  - Gui+C
+  - Gui+V
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - '&mkp MB4'
+  - ''
+  - {t: Mouse, h: toggle, type: held}
+  - ''
+  - LSFT
+  - LGUI
+  - LALT
+  - LCTL
+  - ''
+  System:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - RGB SPI
+  - RGB SAI
+  - RGB HUI
+  - RGB BRI
+  - RGB EFF
+  - RGB EFF
+  - RGB BRI
+  - RGB HUI
+  - RGB SAI
+  - RGB SPI
+  - ''
+  - ''
+  - RGB SPD
+  - RGB SAD
+  - RGB HUD
+  - RGB BRD
+  - RGB EFR
+  - RGB EFR
+  - RGB BRD
+  - RGB HUD
+  - RGB SAD
+  - RGB SPD
+  - ''
+  - ''
+  - ''
+  - APP
+  - PSCRN
+  - PAUSE BREAK
+  - RGB TOG
+  - Gui+Ctl+Q
+  - SLEEP
+  - POWER
+  - ''
+  - '&linux_magic_sysrq'
+  - {t: System, h: toggle, type: held}
+  - RGB TOG
+  - SLCK
+  - KP NUM
+  - CAPS
+  - Gui+Ctl+Q
+  - SLEEP
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&linux_magic_sysrq'
+  - SLCK
+  - KP NUM
+  - CAPS
+  - APP
+  - PSCRN
+  - PAUSE BREAK
+  - LSFT
+  - LGUI
+  - LALT
+  - LCTL
+  - POWER
+  macOS_right:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LSFT
+  - LCTL
+  - LALT
+  - LGUI
+  - {t: ▽, type: trans}
+  Emoji:
+  - {t: '&emoji_cloudy_macro', s: '&emoji_cloudy_macro'}
+  - {t: '&emoji_mostly_cloudy_macro', s: '&emoji_mostly_cloudy_macro'}
+  - {t: '&emoji_partly_cloudy_macro', s: '&emoji_partly_cloudy_macro'}
+  - {t: '&emoji_mostly_sunny_macro', s: '&emoji_mostly_sunny_macro'}
+  - {t: '&emoji_sunny_macro', s: '&emoji_sunny_macro'}
+  - {t: '&emoji_new_moon_macro', s: '&emoji_new_moon_macro'}
+  - {t: '&emoji_waning_crescent_moon_macro', s: '&emoji_waxing_crescent_moon_macro'}
+  - {t: '&emoji_last_quarter_moon_macro', s: '&emoji_first_quarter_moon_macro'}
+  - {t: '&emoji_waning_gibbous_moon_macro', s: '&emoji_waxing_gibbous_moon_macro'}
+  - {t: '&emoji_full_moon_macro', s: '&emoji_full_moon_macro'}
+  - {t: '&emoji_rainbow_macro', s: '&emoji_rainbow_macro'}
+  - {t: '&emoji_light_skin_tone_macro', s: '&emoji_light_skin_tone_macro'}
+  - {t: '&emoji_medium_light_skin_tone_macro', s: '&emoji_medium_light_skin_tone_macro'}
+  - {t: '&emoji_medium_skin_tone_macro', s: '&emoji_medium_skin_tone_macro'}
+  - {t: '&emoji_medium_dark_skin_tone_macro', s: '&emoji_medium_dark_skin_tone_macro'}
+  - {t: '&emoji_dark_skin_tone_macro', s: '&emoji_dark_skin_tone_macro'}
+  - {t: '&emoji_tada_macro', s: '&emoji_theme_party_face_macro'}
+  - {t: '&emoji_theme_love_heart_macro', s: '&emoji_theme_love_face_macro'}
+  - {t: '&emoji_fire_macro', s: '&emoji_theme_nature_water_macro'}
+  - {t: '&emoji_muscle_macro', s: '&emoji_theme_strength_lifting_macro'}
+  - {t: '&emoji_person_climbing_macro', s: '&emoji_theme_effort_juggle_macro'}
+  - {t: '&emoji_nerd_macro', s: '&emoji_lab_coat_macro'}
+  - {t: '&emoji_left_arrow_macro', s: '&emoji_left_arrow_macro'}
+  - {t: '&emoji_bald_macro', s: '&emoji_bald_macro'}
+  - {t: '&emoji_red_hair_macro', s: '&emoji_red_hair_macro'}
+  - {t: '&emoji_curly_hair_macro', s: '&emoji_curly_hair_macro'}
+  - {t: '&emoji_white_hair_macro', s: '&emoji_white_hair_macro'}
+  - {t: '&emoji_right_arrow_macro', s: '&emoji_right_arrow_macro'}
+  - {t: '&emoji_joy_macro', s: '&emoji_rofl_macro'}
+  - {t: '&emoji_face_smile_up_macro', s: '&emoji_face_smile_down_macro'}
+  - {t: '&emoji_star_struck_macro', s: '&emoji_love_struck_macro'}
+  - {t: '&emoji_face_joke_wink_macro', s: '&emoji_face_joke_tongue_macro'}
+  - {t: '&emoji_face_fear_scared_macro', s: '&emoji_face_fear_scream_macro'}
+  - {t: '&emoji_shocked_face_macro', s: '&emoji_face_surprise_dizzy_macro'}
+  - {t: '&emoji_male_sign_macro', s: '&emoji_male_sign_macro'}
+  - '&emoji_hair_style_preset'
+  - '&emoji_skin_tone_preset'
+  - '&emoji_gender_sign_preset'
+  - {t: LSHFT, h: sticky}
+  - {t: '&emoji_female_sign_macro', s: '&emoji_female_sign_macro'}
+  - {t: '&emoji_snap_fingers_macro', s: '&emoji_gesture_attention_wave_macro'}
+  - {t: '&emoji_ok_hand_macro', s: '&emoji_gesture_approval_cool_macro'}
+  - {t: '&emoji_pray_macro', s: '&emoji_saluting_face_macro'}
+  - {t: '&emoji_sweat_smile_macro', s: '&emoji_cold_sweat_macro'}
+  - {t: '&emoji_disappointed_macro', s: '&emoji_gesture_despair_cry_macro'}
+  - {t: '&emoji_thinking_macro', s: '&emoji_monocle_face_macro'}
+  - {t: '&emoji_old_man_macro', s: '&emoji_old_man_macro'}
+  - {t: '&emoji_man_macro', s: '&emoji_man_macro'}
+  - {t: '&emoji_boy_macro', s: '&emoji_boy_macro'}
+  - {t: '&emoji_girl_macro', s: '&emoji_girl_macro'}
+  - {t: '&emoji_woman_macro', s: '&emoji_woman_macro'}
+  - {t: '&emoji_old_woman_macro', s: '&emoji_old_woman_macro'}
+  - {t: '&emoji_cityscape_macro', s: '&emoji_cityscape_macro'}
+  - {t: '&emoji_cityscape_dusk_macro', s: '&emoji_cityscape_dusk_macro'}
+  - {t: '&emoji_cityscape_night_macro', s: '&emoji_cityscape_night_macro'}
+  - {t: '&emoji_theme_magic_wand_macro', s: '&emoji_theme_magic_wizard_macro'}
+  - {t: '&emoji_rocket_macro', s: '&emoji_astronaut_macro'}
+  - {t: '&emoji_sparkles_macro', s: '&emoji_theme_awesome_shine_macro'}
+  - {t: '&emoji_person_tipping_hand_macro', s: '&emoji_person_tipping_hand_macro'}
+  - {t: '&emoji_person_gesturing_ok_macro', s: '&emoji_person_gesturing_ok_macro'}
+  - {t: '&emoji_person_bowing_macro', s: '&emoji_person_bowing_macro'}
+  - {t: '&emoji_person_raising_hand_macro', s: '&emoji_person_raising_hand_macro'}
+  - {t: '&emoji_person_gesturing_no_macro', s: '&emoji_person_gesturing_no_macro'}
+  - {t: '&emoji_person_shrugging_macro', s: '&emoji_theme_sigh_fail_macro'}
+  - {t: '&emoji_theme_game_dart_macro', s: '&emoji_theme_game_dice_macro'}
+  - {t: '&emoji_theme_trend_up_macro', s: '&emoji_theme_trend_down_macro'}
+  - {t: '&emoji_baby_macro', s: '&emoji_baby_macro'}
+  - {t: '&emoji_baby_bottle_macro', s: '&emoji_baby_bottle_macro'}
+  - {t: Emoji, h: toggle, type: held}
+  - {t: '&emoji_zwj_macro', s: '&emoji_zwj_macro'}
+  - {t: '&emoji_sunrise_macro', s: '&emoji_sunrise_macro'}
+  - {t: '&emoji_sunrise_mountains_macro', s: '&emoji_sunrise_mountains_macro'}
+  - {t: '&emoji_raised_hands_macro', s: '&emoji_gesture_hands_clap_macro'}
+  - {t: '&emoji_point_up_macro', s: '&emoji_gesture_point_you_macro'}
+  - {t: '&emoji_thumbs_up_macro', s: '&emoji_gesture_thumbs_down_macro'}
+  - {t: '&emoji_check_macro', s: '&emoji_check_macro'}
+  - {t: '&emoji_100_macro', s: '&emoji_100_macro'}
+  - {t: '&emoji_warning_macro', s: '&emoji_warning_macro'}
+  - {t: '&emoji_cross_macro', s: '&emoji_cross_macro'}
+  - {t: '&emoji_question_macro', s: '&emoji_question_macro'}
+  World:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '&world_y_acute_lower_macro', s: '&world_y_diaeresis_lower_macro'}
+  - {t: '&world_o_acute_lower_macro', s: '&world_o_tilde_lower_macro'}
+  - {t: '&world_u_acute_lower_macro', s: '&world_u_diaeresis_lower_macro'}
+  - {t: '&world_sign_angle_degree_macro', s: '&world_sign_angle_pi_macro'}
+  - ''
+  - ''
+  - {t: LALT, h: sticky}
+  - {t: RALT, h: sticky}
+  - ''
+  - ''
+  - ''
+  - {t: '&world_consonants_cedilla_lower_macro', s: '&world_consonants_eszett_lower_macro'}
+  - {t: '&world_i_acute_lower_macro', s: '&world_i_diaeresis_lower_macro'}
+  - {t: '&world_a_acute_lower_macro', s: '&world_a_tilde_lower_macro'}
+  - {t: '&world_e_acute_lower_macro', s: '&world_e_oe_lower_macro'}
+  - {t: '&world_sign_dash_endash_macro', s: '&world_sign_dash_emdash_macro'}
+  - ''
+  - {t: LSHFT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: RCTRL, h: sticky}
+  - {t: RSHFT, h: sticky}
+  - ''
+  - {t: '&world_currency_dollar_lower_macro', s: '&world_currency_yen_macro'}
+  - {t: '&world_quotes_left_angle_lower_macro', s: '&world_quotes_left_corner1_lower_macro'}
+  - {t: '&world_sign_landmark_section_macro', s: '&world_sign_landmark_pilcrow_macro'}
+  - {t: '&world_sign_ordinal_o_macro', s: '&world_sign_ordinal_a_macro'}
+  - {t: '&world_sign_exclaim_left_macro', s: '&world_sign_exclaim_right_macro'}
+  - {t: '&world_sign_question_left_macro', s: '&world_sign_question_right_macro'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '&world_sign_copyright_regular_macro', s: '&world_sign_trademark_regular_macro'}
+  - {t: '&world_quotes_right_angle_lower_macro', s: '&world_quotes_right_corner1_lower_macro'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: World, h: toggle, type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  Factory:
   - F1
   - F2
   - F3
@@ -55,7 +2002,7 @@ layers:
   - B
   - LSHFT
   - LCTRL
-  - '&layer_td'
+  - '&lower'
   - LGUI
   - RCTRL
   - RSHFT
@@ -65,7 +2012,7 @@ layers:
   - .
   - /
   - PG UP
-  - {t: '&rgb_ug_status_macro', h: magic}
+  - {t: '&rgb_ug_status_macro', h: Magic}
   - HOME
   - END
   - LEFT
@@ -81,88 +2028,412 @@ layers:
   - '['
   - ']'
   - PG DN
-  lower:
-  - BRI DN
-  - BRI UP
-  - PREV
-  - NEXT
-  - PP
-  - MUTE
-  - VOL DN
-  - VOL UP
-  - ''
-  - PAUSE BREAK
-  - {t: ▽, type: trans}
+  Lower:
   - ''
   - ''
   - ''
   - ''
-  - HOME
-  - (
-  - KP NUM
-  - KP EQUAL
-  - KP DIVIDE
-  - KP MULTIPLY
-  - PSCRN
-  - {t: ▽, type: trans}
   - ''
   - ''
-  - UP
   - ''
-  - END
-  - )
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - SLCK
-  - {t: ▽, type: trans}
   - ''
-  - LEFT
-  - DOWN
-  - RIGHT
-  - PG UP
-  - '%'
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
   - ''
-  - {t: ▽, type: trans}
-  - CMENU
   - ''
-  - F11
-  - F12
-  - PG DN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: default, h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ','
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - KP 1
   - KP 2
   - KP 3
-  - KP ENTER
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - CAPS
-  - INS
-  - F11
-  - F12
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP 7
+  - KP 8
+  - KP 9
   - KP 0
-  - KP 0
+  - ''
+  - ''
+  - {t: LCTL, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LGUI, h: sticky}
+  - {t: LSFT, h: sticky}
+  - KP MINUS
+  - KP SLASH
+  - {t: LSFT, h: sticky}
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LCTL, h: sticky}
+  - ''
+  - ''
+  - KP LPAR
+  - KP COMMA
   - KP DOT
+  - KP RPAR
+  - KP PLUS
+  - {t: Function, h: toggle}
+  - {type: held}
+  - RALT
+  - RALT
+  - ''
+  - {t: System, h: toggle}
+  - KP MULTIPLY
+  - KP NUM
+  - KP CLEAR
+  - KP EQUAL
   - KP ENTER
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: Emoji, h: toggle}
+  - {t: Cursor, h: toggle}
+  - {t: Number, h: toggle}
+  - ''
+  - ''
+  - {t: Mouse, h: toggle}
+  - {t: Symbol, h: toggle}
+  - {t: World, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  macOS_lower:
   - {t: ▽, type: trans}
-  magic:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LCTL, h: sticky}
+  - {t: LSFT, h: sticky}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: LSFT, h: sticky}
+  - {t: LCTL, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LGUI, h: sticky}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Mouse_slow:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Mouse_fast:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Mouse_warp:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Magic:
   - BT CLR
   - ''
   - ''
@@ -173,12 +2444,12 @@ layers:
   - ''
   - ''
   - BT CLR ALL
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: Enthium, h: toggle}
+  - {t: Dvorak, h: toggle}
+  - {t: Colemak, h: toggle}
+  - {t: QWERTY, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -217,7 +2488,7 @@ layers:
   - ''
   - '&bt_2'
   - '&bt_3'
-  - ''
+  - {t: Factory, h: toggle}
   - ''
   - ''
   - ''
@@ -228,7 +2499,7 @@ layers:
   - ''
   - '&sys_reset'
   - {type: held}
-  - ''
+  - {t: macOS, h: toggle}
   - ''
   - ''
   - ''
@@ -241,8 +2512,76 @@ layers:
   - ''
   - ''
   - ''
+  - {t: macOS, h: toggle}
   - ''
-  - {t: factory_test, h: toggle}
-  factory_test: ['0', '6', '2', '8', '4', '4', '8', '2', '6', '0', '1', '7', '3', '9', '5', '0', '0', '5', '9', '3', '7', '1', '2', '8', '4', '0', '6', '1', '1',
-    '6', '0', '4', '8', '2', '3', '9', '5', '1', '7', '2', '2', '7', '1', '5', '9', '3', '4', '0', '6', '2', '8', '3', '4', '5', '6', '6', '5', '4', '3', '8', '2',
-    '6', '0', '4', '5', '1', '7', '3', '9', '7', '8', '9', '9', '8', '7', '9', '3', '7', '1', '5']
+combos:
+- p: [53, 54]
+  k: {t: GLOBE, h: sticky}
+  l: [Enthium, Dvorak, Colemak, QWERTY, macOS]
+- p: [56, 55]
+  k: {t: GLOBE, h: sticky}
+  l: [Enthium, Dvorak, Colemak, QWERTY, macOS]
+- p: [52, 53]
+  k: {t: RALT, h: sticky}
+  l: [Enthium, Dvorak, Colemak, QWERTY, macOS]
+- p: [57, 56]
+  k: {t: RALT, h: sticky}
+  l: [Enthium, Dvorak, Colemak, QWERTY, macOS]
+- p: [52, 69]
+  k: '&mod_tab_chord LGUI 15'
+  l: [Enthium, Dvorak, Colemak, QWERTY, macOS]
+- p: [57, 74]
+  k: Gui+Alt+Ctl+LSHFT
+  l: [Enthium, Dvorak, Colemak, QWERTY, macOS]
+- p: [54, 71]
+  k: '&mod_tab_chord LALT 15'
+  l: [Enthium, Dvorak, Colemak, QWERTY, macOS]
+- p: [55, 72]
+  k: Ctl+LSHFT
+  l: [Enthium, Dvorak, Colemak, QWERTY, macOS]
+- p: [53, 70]
+  k: '&mod_tab_chord LCTL 15'
+  l: [Enthium, Dvorak, Colemak, QWERTY, macOS]
+- p: [56, 73]
+  k: Alt+Ctl+LSHFT
+  l: [Enthium, Dvorak, Colemak, QWERTY, macOS]
+- p: [52, 70]
+  k: {t: '&sticky_key_oneshot LSFT', h: LSFT}
+  l: [Enthium, Dvorak, Colemak, QWERTY, macOS, Typing]
+- p: [57, 73]
+  k: {t: '&sticky_key_oneshot RSFT', h: RSFT}
+  l: [Enthium, Dvorak, Colemak, QWERTY, macOS, Typing]
+- p: [69, 70]
+  k: '&caps_word'
+  l: [Enthium, Dvorak, Colemak, QWERTY, macOS, Typing]
+- p: [74, 73]
+  k: '&caps_word'
+  l: [Enthium, Dvorak, Colemak, QWERTY, macOS, Typing]
+- p: [53, 71]
+  k: CAPSLOCK
+  l: [Enthium, Dvorak, Colemak, QWERTY, macOS, Typing]
+- p: [56, 72]
+  k: CAPSLOCK
+  l: [Enthium, Dvorak, Colemak, QWERTY, macOS, Typing]
+- p: [70, 71]
+  k: Typing
+  l: [Enthium, Dvorak, Colemak, QWERTY, macOS, Typing, LeftPinky, LeftRingy, LeftMiddy, LeftIndex, RightIndex, RightMiddy, RightRingy, RightPinky, Gaming, Cursor,
+    Number, Function, macOS_left, Symbol, Mouse, System, macOS_right, Emoji, World, Factory, Lower]
+- p: [73, 72]
+  k: Typing
+  l: [Enthium, Dvorak, Colemak, QWERTY, macOS, Typing, LeftPinky, LeftRingy, LeftMiddy, LeftIndex, RightIndex, RightMiddy, RightRingy, RightPinky, Gaming, Cursor,
+    Number, Function, macOS_left, Symbol, Mouse, System, macOS_right, Emoji, World, Factory, Lower]
+- p: [51, 68]
+  k: {t: Gaming, h: toggle}
+  l: [Enthium, Gaming, macOS]
+- p: [58, 75]
+  k: {t: Typing, h: toggle}
+  l: [Enthium, Typing, macOS]
+- p: [52, 53, 54]
+  k: {t: Enthium, h: toggle}
+  l: [Enthium, Dvorak, Colemak, QWERTY, macOS, Typing, LeftPinky, LeftRingy, LeftMiddy, LeftIndex, RightIndex, RightMiddy, RightRingy, RightPinky, Gaming, Cursor,
+    Number, Function, macOS_left, Symbol, Mouse, System, macOS_right, Emoji, World, Factory, Lower]
+- p: [57, 56, 55]
+  k: {t: Enthium, h: toggle}
+  l: [Enthium, Dvorak, Colemak, QWERTY, macOS, Typing, LeftPinky, LeftRingy, LeftMiddy, LeftIndex, RightIndex, RightMiddy, RightRingy, RightPinky, Gaming, Cursor,
+    Number, Function, macOS_left, Symbol, Mouse, System, macOS_right, Emoji, World, Factory, Lower]

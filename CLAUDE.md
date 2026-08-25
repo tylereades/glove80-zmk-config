@@ -74,8 +74,11 @@ before.
 
 ## Open items / not yet done
 
-- Cmd+Tab "swapper" key (hold-free, tap-N-times-to-go-back-N-apps) — ON
-  HOLD per Tyler. Needs `caksoylar/zmk-smart-toggle` or equivalent, which
-  in turn needs solving the Nix-module-integration gotcha above.
+See **[docs/keybinding-options.md](docs/keybinding-options.md)** for the
+full running list of ideas discussed but not yet applied (Cmd+Tab swapper,
+home row mods + the Neovim/hjkl conflict it raises, alternative letter
+layouts, and the `sunaku/glove80-keymaps` reference repo). Check there
+before re-deriving any of this from scratch.
+
 - Keymap not yet split into included files — fine for now, revisit if
   `glove80.keymap` gets unwieldy.

@@ -1,2 +1,4 @@
 *~
 *.uf2
+# ...except archived reference firmware we want to keep permanently
+!firmware-archive/*.uf2

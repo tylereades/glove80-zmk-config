@@ -96,18 +96,25 @@
             // |  =    |  1  |  2  |  3   |  4   |  5   |                                                 |  6   |   7   |   8   |  9   |   0   |   -  |
             // |  TAB  |  Q  |  W  |  E   |  R   |  T   |                                                 |  Y   |   U   |   I   |  O   |   P   |   \  |
             // |  ESC  |  A  |  S  |  D   |  F   |  G   |                                                 |  H   |   J   |   K   |  L   |   ;   |   '  |
-            // |   `   |  Z  |  X  |  C   |  V   |  B   | LSHFT | LCTRL | LOWER | | LGUI  | RCTRL | RSHFT |  N   |   M   |   ,   |  .   |   /   | PGUP |
-            // | MAGIC | HOME| END | LEFT | HYPER|      | BSPC  | DEL   | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
-            //                              pos 68 ^ was RIGHT; held as a Raycast hotkey prefix (Cmd+Alt+Ctrl+Shift).
-            //                              Arrows remain available on the lower layer.
+            // |   `   |  Z  |  X  |  C   |  V   |  B   | LSHFT |  DEL  | LOWER | | LCTRL | RGUI  | RSHFT |  N   |   M   |   ,   |  .   |   /   | PGUP |
+            // | MAGIC | HOME| END | LEFT | HYPER|      | BSPC  | LGUI  | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
+            //
+            // Two deviations from MoErgo's vanilla default:
+            //
+            //   1. The "swapped command" thumb arrangement, ported from Tyler's
+            //      MoErgo layout 6394d58f (see firmware-archive/). Cmd sits on the
+            //      left thumb lower row; positions 53/55/56/70 differ from stock.
+            //
+            //   2. Position 68 was &kp RIGHT, now &kp HYPER -- a Cmd+Alt+Ctrl+Shift
+            //      prefix for Raycast hotkeys. Arrows remain on the lower layer.
 
             bindings = <
             &kp F1         &kp F2   &kp F3      &kp F4      &kp F5                                                                                         &kp F6  &kp F7      &kp F8      &kp F9      &kp F10
             &kp EQUAL      &kp N1   &kp N2      &kp N3      &kp N4      &kp N5                                                                     &kp N6  &kp N7  &kp N8      &kp N9      &kp N0      &kp MINUS
             &kp TAB        &kp Q    &kp W       &kp E       &kp R       &kp T                                                                      &kp Y   &kp U   &kp I       &kp O       &kp P       &kp BSLH
             &kp ESC        &kp A    &kp S       &kp D       &kp F       &kp G                                                                      &kp H   &kp J   &kp K       &kp L       &kp SEMI    &kp SQT
-            &kp GRAVE      &kp Z    &kp X       &kp C       &kp V       &kp B   &kp LSHFT   &kp LCTRL   &layer_td  &kp LGUI  &kp RCTRL &kp RSHFT   &kp N   &kp M   &kp COMMA   &kp DOT     &kp FSLH    &kp PG_UP
-            &magic MAGIC 0 &kp HOME &kp END     &kp LEFT    &kp HYPER           &kp BSPC    &kp DEL     &kp LALT   &kp RALT  &kp RET   &kp SPACE           &kp UP  &kp DOWN    &kp LBKT    &kp RBKT    &kp PG_DN
+            &kp GRAVE      &kp Z    &kp X       &kp C       &kp V       &kp B   &kp LSHFT   &kp DEL     &layer_td  &kp LCTRL &kp RGUI  &kp RSHFT   &kp N   &kp M   &kp COMMA   &kp DOT     &kp FSLH    &kp PG_UP
+            &magic MAGIC 0 &kp HOME &kp END     &kp LEFT    &kp HYPER           &kp BSPC    &kp LGUI    &kp LALT   &kp RALT  &kp RET   &kp SPACE           &kp UP  &kp DOWN    &kp LBKT    &kp RBKT    &kp PG_DN
             >;
         };
 

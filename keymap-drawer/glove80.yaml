@@ -54,10 +54,10 @@ layers:
   - V
   - B
   - LSHFT
-  - LCTRL
+  - DEL
   - '&layer_td'
-  - LGUI
-  - RCTRL
+  - LCTRL
+  - RGUI
   - RSHFT
   - N
   - M
@@ -71,7 +71,7 @@ layers:
   - LEFT
   - Ctl+Sft+Gui+LALT
   - BSPC
-  - DEL
+  - LGUI
   - LALT
   - RALT
   - RET

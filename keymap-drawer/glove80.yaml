@@ -139,7 +139,7 @@ layers:
   - PG UP
   - '&msc MOVE_Y(33 * 1)'
   - {t: INSERT, h: Lower}
-  - {t: ENTER, h: System}
+  - {t: TAB, h: Mouse}
   - B
   - M
   - W
@@ -155,7 +155,7 @@ layers:
   - {t: DELETE, h: Number}
   - PG DN
   - '&msc MOVE_Y(33 * 1 * -1)'
-  - {t: TAB, h: Mouse}
+  - {t: ENTER, h: System}
   - {t: SPACE, h: Symbol}
   - {t: '&sticky_key_oneshot RSFT', h: World}
   - '['
@@ -220,7 +220,7 @@ layers:
   - PG UP
   - '&msc MOVE_Y(33 * 1)'
   - {t: INSERT, h: Lower}
-  - {t: ENTER, h: System}
+  - {t: TAB, h: Mouse}
   - K
   - M
   - ','
@@ -236,7 +236,7 @@ layers:
   - {t: DELETE, h: Number}
   - PG DN
   - '&msc MOVE_Y(33 * 1 * -1)'
-  - {t: TAB, h: Mouse}
+  - {t: ENTER, h: System}
   - {t: SPACE, h: Symbol}
   - {t: '&sticky_key_oneshot RSFT', h: World}
   - '['
@@ -301,7 +301,7 @@ layers:
   - PG UP
   - '&msc MOVE_Y(33 * 1)'
   - {t: INSERT, h: Lower}
-  - {t: ENTER, h: System}
+  - {t: TAB, h: Mouse}
   - N
   - M
   - ','
@@ -317,7 +317,7 @@ layers:
   - {t: DELETE, h: Number}
   - PG DN
   - '&msc MOVE_Y(33 * 1 * -1)'
-  - {t: TAB, h: Mouse}
+  - {t: ENTER, h: System}
   - {t: SPACE, h: Symbol}
   - {t: '&sticky_key_oneshot RSFT', h: World}
   - '['
@@ -1178,11 +1178,11 @@ layers:
   - LGUI
   - LSFT
   - Gui+C
-  - Gui+C
   - LEFT
-  - UP
   - DOWN
+  - UP
   - RIGHT
+  - Gui+C
   - {t: LSHFT, h: sticky}
   - Gui+L
   - Gui+A
